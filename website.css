@@ -29,6 +29,11 @@ a {
 .sidebar span {
     padding-left: 20px;
     font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .sidebar nav{
     width: 65vw;
@@ -71,7 +76,11 @@ a {
 .hello {
     font-size: 100px;
     color: aliceblue;
+    bottom: auto;
+
 }
+
+
 
 .devpic {
     height: 70vh;
@@ -86,4 +95,24 @@ a {
 .div2 {
     height: 100vh;
     background-color: rgb(255, 255, 255);
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.buttons button {
+    padding: 20px 30px;
+    border: none;
+    background-color: lightslategray;
+    color: black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: lightgrey !important;
+    color: black !important;
 }
